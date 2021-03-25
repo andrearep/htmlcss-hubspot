@@ -16,9 +16,62 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-header, main, footer{
+.container{
     width: 70%;
     margin: auto;
-    background-color: #33475b;
-    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #33475b;
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    padding:0.6rem;
+    background-color: #fe775a;
+    
+}
+/* ++++++++++++++++++++
+        HEADER 
+++++++++++++++++++++++++*/
+
+/* TOP MENU */
+.top_menu{
+    line-height: 70px;
+    font-size: 0.9rem;
+    font-weight: 600 ; 
+    border-bottom: 1px solid #33475b;
+}
+/* left menu */
+.left_menu{
+    float: left;
+}
+
+.right_menu{
+    float: right;
+}
+
+.left_menu > img{
+    height: 13px;
+}
+.drop{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #33475b;
+}
+/* right menu */
+
+.right_menu>img{
+    height: 14px;
+    position: relative;
+    top:3px
+}
+.reverse_clr{
+    background-color: #f4f9fd;
+    border:1px solid #fe775a;
+    color: #fe775a;;
+}
+.right_menu > *{
+    margin-left: 20px;
 }
