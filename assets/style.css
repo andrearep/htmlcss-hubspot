@@ -45,7 +45,7 @@ li{
 
 /* TOP MENU */
 .top_menu{
-    line-height: 75px;
+    line-height: 70px;
     font-size: 0.9rem;
     font-weight: 600 ; 
 }
@@ -85,7 +85,7 @@ li{
 /* NAVBAR */
 nav{
     border-top:  1px solid #33475b;
-    line-height: 75px;
+    line-height: 70px;
     background-color: white;
 }
 .logo{
@@ -108,7 +108,7 @@ nav{
     height: 520px;
     background-repeat: no-repeat;
     background-image: url("../img/header/jumbotron.png");
-    background-position: 100% 7%;
+    background-position: 100% 0%;
     background-size: 80%;
 }
 
@@ -137,4 +137,11 @@ nav{
 .header_presentation span{
     font-size: 0.60rem;
     font-weight: 600;
+}
+
+.separator{
+    height: 100px;
+    background-color: #afebe4;
+    border-top: 5px solid #33475b;
+    border-bottom: 5px solid #33475b;
 }
