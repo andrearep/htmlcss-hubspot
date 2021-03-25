@@ -14,6 +14,7 @@ body{
     background-color: #f4f9fd;
     color: #33475b;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .container{
@@ -24,12 +25,14 @@ body{
 a{
     text-decoration: none;
     color: #33475b;
+    font-size: 0.8rem;
 }
 .btn{
     border-radius: 5px;
     color: white;
     padding:0.6rem;
     background-color: #fe775a;
+    
     
 }
 li{
@@ -45,7 +48,6 @@ li{
     line-height: 75px;
     font-size: 0.9rem;
     font-weight: 600 ; 
-    border-bottom:;
 }
 /* left menu */
 .left_menu{
@@ -97,4 +99,42 @@ nav{
     margin-left: 15px;
     font-size: 0.9rem;
     font-weight: 600 ; 
+}
+
+/* HEADER PRESENTATION */
+
+.bg{
+    background-color: rgb(254,245,237);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-image: url("../img/header/jumbotron.png");
+    background-position: 100% 7%;
+    background-size: 80%;
+}
+
+.header_presentation{
+    padding-top: 70px;
+    width: 50%;
+    height: 520px;
+}
+.header_presentation > *{
+    margin-top: 30px;
+    display: inline-block;
+}
+.header_presentation > h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.header_presentation p{
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+.header_presentation a{
+    font-size: 0.75rem;
+    padding: 1.1rem 2.5rem;
+    margin-right: 6rem;
+}
+.header_presentation span{
+    font-size: 0.60rem;
+    font-weight: 600;
 }
