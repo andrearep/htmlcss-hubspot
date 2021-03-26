@@ -392,3 +392,43 @@ nav{
 .img_woman>img{
     height: 350px;
 }
+
+/* ++++++++++++++++++++
+        FOOTER 
+++++++++++++++++++++++++*/
+
+footer{
+    background-color: #32495b;
+    color: #C6D2DE;
+}
+
+.col_4_foot{
+    width: 25%;
+    float: left;
+    padding: 40px 0;
+}
+
+.col_4_foot > a{
+    margin-bottom: 20px;
+    color: #C6D2DE;
+    display: block;
+}
+.col_4_foot> .bolder{
+    font-weight: 800;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+}
+.col_4_foot> .btn_foot{
+    background-color: #DADEE0;
+    color: #32495b;
+    border: 1px solid #32495b;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.social > a >i{
+    color: #DADEE0;
+    font-size: 1rem;
+    margin-right: 20px;
+}
