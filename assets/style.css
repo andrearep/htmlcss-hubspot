@@ -325,3 +325,70 @@ nav{
 .img_correction{
     padding:5px 0;
 }
+/*  sponsor and customers */
+
+.last_box_main{
+  
+    background-color: white;
+}
+
+.customers{
+    width: 27%;
+    padding:50px;
+    
+    float: left;
+}
+.customers > *{
+   
+}
+.customers h2{
+    font-size:2.5rem;
+    margin-bottom: 30px;
+}
+.sponsor{
+    width: 70%;
+    padding:50px;
+    
+    float: right;
+    vertical-align:50%;
+}
+.sponsor_row{
+    text-align: right;
+}
+.sponsor_row > img{
+    display: inline-block;
+    vertical-align: middle;
+    width:20%;
+    padding: 20px 10px;
+}
+
+/* final call to action */
+.final_c2a{
+    width: 45%;
+    float: left;
+    padding:50px 0 30px 0;
+}
+.final_c2a >*{
+    margin-bottom: 30px;
+    display: block;
+}
+.final_c2a h3{
+    font-size: 1.7rem;
+}
+.final_c2a > .btn{
+    display: inline-block;
+    padding:1.1rem 1.9rem
+}
+.final_c2a span{
+    font-size: 0.70rem;
+    font-weight: 600;
+}
+.img_woman{
+    width: 50%;
+    text-align: right;
+    float: right;
+    padding:30px 0
+}
+.img_woman>img{
+    height: 350px;
+}
