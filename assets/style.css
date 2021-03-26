@@ -398,10 +398,12 @@ nav{
 ++++++++++++++++++++++++*/
 
 footer{
-    background-color: #32495b;
-    color: #C6D2DE;
+    background-color: #32495b;   
 }
 
+footer  a{
+ color: #C6D2DE;
+}
 .col_4_foot{
     width: 25%;
     float: left;
@@ -431,4 +433,38 @@ footer{
     color: #DADEE0;
     font-size: 1rem;
     margin-right: 20px;
+}
+
+/* Lingue footer */
+.lang{
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    border-bottom: 1px solid #DADEE0;
+}
+
+.lang > a{
+    margin-right: 15px;
+}
+
+.logo_copyright{
+    padding: 30px 0;
+    float: left;
+}
+.logo_copyright img{
+    display: block;
+    margin-bottom: 10px;
+}
+.logo_copyright > span{
+    color: #DADEE0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.legal{
+    float: right;
+    padding: 40px 0;
+}
+
+.legal>a{
+    margin-left: 20px;
 }
