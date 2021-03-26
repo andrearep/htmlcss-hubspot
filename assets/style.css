@@ -1,20 +1,34 @@
+/*Global utilities  */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 body{
     background-color: #f4f9fd;
     color: #33475b;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    min-width: 1519px;
+    min-height: 700px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+p{
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+}
+/* style utilities */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .container{
@@ -29,24 +43,11 @@ a{
 }
 .btn{
     border-radius: 5px;
-    color: white;
     padding:0.6rem;
+    color: white;
     background-color: #fe775a;
-    
-    
 }
-li{
-    list-style: none;
-    display: inline-block;
-}
-p{
-    font-size: 0.85rem;
-    line-height: 1.5rem;
-    font-weight: 600;
-}
-h3{
-    font-size: 1.4rem;
-}
+
 /* ++++++++++++++++++++
         HEADER 
 ++++++++++++++++++++++++*/
@@ -54,7 +55,7 @@ h3{
 /* TOP MENU */
 .top_menu{
     line-height: 70px;
-    font-size: 0.9rem;
+    font-size: 12.8px;
     font-weight: 600 ; 
 }
 /* left menu */
@@ -67,22 +68,22 @@ h3{
 }
 
 .left_menu > img{
-    height: 13px;
+    height: 11px;
 }
-.drop{
+.lang{
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 2px solid #33475b;
+    border-right: 1px solid #33475b;
 }
 /* right menu */
 
 .right_menu>img{
-    height: 14px;
+    height: 12px;
     position: relative;
     top:3px
 }
 .reverse_clr{
-    background-color: #f4f9fd;
+    background-color: #FAFCFE;
     border:1px solid #fe775a;
     color: #fe775a;;
 }
@@ -94,7 +95,8 @@ h3{
 nav{
     border-top:  1px solid #33475b;
     line-height: 70px;
-    background-color: white;
+   background-color: white;
+     background-color: white;
 }
 .logo{
     position: relative;
@@ -121,23 +123,23 @@ nav{
 }
 
 .header_presentation{
-    padding-top: 70px;
-    width: 50%;
+    padding-top: 30px;
+    width: 55%;
     height: 520px;
 }
 .header_presentation > *{
     margin-top: 30px;
-    display: inline-block;
+    display:inline-block;
 }
 .header_presentation > h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 800;
 }
 
 .header_presentation a{
     font-size: 0.75rem;
     padding: 1.1rem 2.5rem;
-    margin-right: 6rem;
+    margin-right: 10rem;
 }
 .header_presentation span{
     font-size: 0.60rem;
@@ -197,7 +199,6 @@ nav{
 }
 .learn_btn{
     padding: 1.2rem 2.2rem;
-    margin-top: 30px;
 }
 
 .features{
@@ -239,8 +240,8 @@ nav{
 
 /* 3 COLONNE */
 
-.colonna{
-    padding:20px 40px;
+.col_3{
+    padding:40px 40px;
     width: 30%;
     background-color: white;
     margin-bottom: 50px;
@@ -249,15 +250,11 @@ nav{
     float: left;
     text-align: center;
 }
-.colonna > *{
-    padding-bottom: 30px ;
-    display :block;
+.col_3 > *{
+    margin-bottom: 40px ;
 }
-.colonna img{
-    height: 150px;
-    position: relative;
-    left:50%;
-    transform: translateX(-50%);
+.col_3 img{
+    height: 90px;
 }
 .center_col{
     margin-right: 5%;
@@ -271,5 +268,60 @@ nav{
 }
 .divisor2{
     border-bottom: 3px solid lightgrey; 
+    margin-bottom: 40px;
+}
+
+/* BLUE BOX */
+
+.blue_box{
+    color: white;
+    background: linear-gradient(90deg, #00A7BA 0%, #00BAA7 100%);
+    text-align: center;
+    padding: 50px 0;  
+}
+
+.blue_box  h2, .blue_box  p{
     margin-bottom: 30px;
+}
+
+.blue_box  h2{
+    font-size: 1.7rem;
+}
+
+.blue_box  p{
+    font-size: 0.77rem;
+}
+.col_4{
+    width:24.25%;
+    float: left;
+
+    padding: 20px;
+}
+.col_4 > *{
+    margin-bottom: 20px;
+}
+.col_4 > h3 {
+    font-size: 2.5rem;
+}
+.col_4>h3>span{
+    position: relative;
+    top: -6px;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.col_4 > span{
+    font-size: 0.6rem;
+}
+
+.row1 > .col_4{
+    border-bottom: 1px solid white;
+}
+.row1 > .col_4, .row2 > .col_4 {
+    border-right: 1px solid white;
+}
+.row1 > .col_4:nth-child(4), .row2 > .col_4:nth-child(4) {
+    border-right: none;
+}
+.img_correction{
+    padding:5px 0;
 }
